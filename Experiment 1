@@ -1,0 +1,211 @@
+EXPERIMENT-01
+Name-Sakahi bhatt
+Batch-B79
+SAP ID-590029369
+1.Interactive Mode (The Shell)
+
+The Interactive Mode is a live "chat" with Python.
+
+Symbol: Look for the >>> prompt.
+
+Behavior: Code runs instantly after you press Enter.
+
+Saving: No. Once you close the window, the code is gone.
+
+Best For: Quick math, testing one line of code, and debugging.
+2.Script Mode (The Editor)
+
+The Script Mode is a text editor for building actual programs.
+
+Access: File > New File.
+
+Behavior: Code runs only after you save as a .py file and press F5.
+
+Saving: Yes. Your work is permanent and reusable.
+
+Best For: Writing full projects, complex logic, and assignments.
+
+
+
+1. Age Variable and Type
+
+age = 25
+print(f"Age: {age}")
+print(f"Type: {type(age)}")
+     
+Age: 25
+Type: <class 'int'>
+
+
+2. String Declaration
+
+x = "Hello"
+print(x)
+     
+Hello
+
+
+3.Different Data Types
+
+name = "Worshow"      # String
+pi = 3.14159         # Float
+is_active = True     # Boolean
+items = [1, 2, 3]    # List
+
+print(name, pi, is_active, items)
+     
+Worshow 3.14159 True [1, 2, 3]
+
+
+4.Arithmetic Operations
+
+x = 9
+y = 7
+
+print(f"Addition: {x + y}")
+print(f"Subtraction: {x - y}")
+print(f"Multiplication: {x * y}")
+print(f"Division: {x / y}")
+     
+Addition: 16
+Subtraction: 2
+Multiplication: 63
+Division: 1.2857142857142858
+
+
+5.Hypotenuse (Pythagoras Theorem)
+
+import math
+
+a = float(input("Enter side a: "))
+b = float(input("Enter side b: "))
+c = math.sqrt(a**2 + b**2)
+
+print(f"The hypotenuse is: {c}")
+     
+Enter side a: 4
+Enter side b: 3
+The hypotenuse is: 5.0
+
+
+6.Simple Interest
+
+p = float(input("Enter Principal: "))
+r = float(input("Enter Rate of Interest: "))
+t = float(input("Enter Time (years): "))
+
+si = (p * r * t) / 100
+print(f"Simple Interest: {si}")
+     
+Enter Principal: 10000
+Enter Rate of Interest: 5
+Enter Time (years): 2
+Simple Interest: 1000.0
+
+
+7.Area of Triangle (Heron's Formula)
+
+import math
+
+a = float(input("Side 1: "))
+b = float(input("Side 2: "))
+c = float(input("Side 3: "))
+
+s = (a + b + c) / 2
+area = math.sqrt(s * (s - a) * (s - b) * (s - c))
+
+print(f"Area of the triangle: {area}")
+     
+Side 1: 4
+Side 2: 3
+Side 3: 5
+Area of the triangle: 6.0
+
+
+8.Seconds to Hours, Minutes, Secondstotal_sec = int(input("Enter seconds: "))
+
+hours = total_sec // 3600
+rem_sec = total_sec % 3600
+minutes = rem_sec // 60
+seconds = rem_sec % 60
+
+print(f"{hours}h : {minutes}m : {seconds}s")
+     
+Enter seconds: 3600
+1h : 0m : 0s
+
+
+
+
+
+9.Swap Two Numbers (No Temp Variable)
+
+a = 10
+b = 20
+print(f"Before: a={a}, b={b}")
+
+a, b = b, a
+
+print(f"After: a={a}, b={b}")
+     
+Before: a=10, b=20
+After: a=20, b=10
+
+
+
+
+10.Sum of First n Natural Numbers
+
+n = int(input("Enter n: "))
+total_sum = n * (n + 1) // 2
+print(f"Sum of first {n} numbers is: {total_sum}")
+     
+Enter n: 5
+Sum of first 5 numbers is: 15
+
+
+
+
+11. Bitwise Truth Table
+
+print("A | B | A&B | A|B | A^B")
+print("-" * 22)
+for a in [0, 1]:
+    for b in [0, 1]:
+        print(f"{a} | {b} |  {a&b}  |  {a|b}  |  {a^b}")
+     
+A | B | A&B | A|B | A^B
+----------------------
+0 | 0 |  0  |  0  |  0
+0 | 1 |  0  |  1  |  1
+1 | 0 |  0  |  1  |  1
+1 | 1 |  1  |  1  |  0
+
+
+
+12.Bitwise Shift Operators
+
+num = int(input("Enter a number: "))
+shift = int(input("Enter shift value: "))
+
+print(f"Left Shift ({num} << {shift}): {num << shift}")
+print(f"Right Shift ({num} >> {shift}): {num >> shift}")
+     
+Enter a number: 11001
+Enter shift value: 3
+Left Shift (11001 << 3): 88008
+Right Shift (11001 >> 3): 1375
+
+#13. Membership Operator
+     
+
+sequence = (10, 20, 56, 78, 89)
+num = int(input("Check if this number is in sequence: "))
+
+if num in sequence:
+    print(f"Yes, {num} is in the sequence.")
+else:
+    print(f"No, {num} is not there.")
+     
+Check if this number is in sequence: 20
+Yes, 20 is in the sequence.
