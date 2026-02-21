@@ -1,0 +1,132 @@
+[ ]
+#display numbers from a list using a loop
+number = [12,75,150,180,145,525,50]
+for i in number:
+  if(i%5==0 and i>150 ):
+    if(i<500):
+
+      print(i)
+    if(i>500):
+      break
+180
+
+[ ]
+# count the number of digit in a number
+num=int(input("enter a number"))
+count=0
+while(num>0):
+  num=num//10
+  count+=1
+print(count)
+enter a number1234
+4
+
+[ ]
+
+print(15%5)
+0
+# count the number of digit in a number
+num=int(input("enter a number"))
+count=0
+while(t>0):
+  t=num%10
+  count+=1
+print(count)
+
+
+
+[]
+#row=5
+for i in range (1,row+1):
+  for j in range (1,row+1-i):
+    print(j," ")
+
+[]
+#a,b=0,1
+for i in range(10):
+  print(a,end='')
+  temp=a+b
+  a=b
+  b=temp
+
+
+[ ]
+#Qdisplay the capital letter in string
+s=input("Enter a string ")
+count=0
+for i in s:
+  if(i.isupper()):
+    count+=1
+    print(i)
+print(count)
+Enter a string heLLO
+L
+L
+O
+3
+
+[ ]
+#Qcount total no. of vowels in string
+s=input("enter astring ")
+c=0
+for i in s:
+  if(i.lower())in  ('a','e','i','o','u'):
+    c+=1
+    print(i)
+print(c)
+enter astring heLlO
+e
+O
+2
+
+[ ]
+#Q count total no. of vowels in string
+s=input("enter astring ")
+c=0
+for i in s:
+  if(i in ('aeiouAEIOU')):
+    c+=1
+    print(i)
+print(c)
+enter astring Hello
+e
+o
+2
+
+[ ]
+
+#Q input a sentence  and print word
+s=input("Enter a string")
+a=s.split()
+for i in a:
+  print(i)
+Enter a stringhello world
+hello
+world
+
+[ ]
+#Q write a string or sub string to check weather the sub string is in string if it is there then count how many time
+s=input("enter a string ")
+a=input("enter another string ")
+for
+
+
+
+
+
+enter a string nimishaha
+enter another stringsradha
+0
+
+[ ]
+#q count the alphabate in the given string
+
+
+[ ]
+#Q count unique words in string
+s=input("enter a string :")
+word=s.split()
+t=set(word)
+print(len(t))
+enter a string :this is this
+2
