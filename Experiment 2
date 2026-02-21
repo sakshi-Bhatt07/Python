@@ -1,0 +1,179 @@
+if-else conditional
+
+[ ]
+#Q1
+a=int (input("Enter a number:"))
+if (a % 2==0):
+  print("number is even")
+else:
+  print("number is odd")
+
+Enter a number:10
+number is even
+
+[ ]
+#Q2
+a=int (input("Enter a number:"))
+if (a>0):
+  print("number is positive ")
+elif(a<0):
+  print("number is negative")
+else :
+  print("number is zero")
+
+
+Enter a number:2
+number is positive 
+
+[ ]
+#Q3
+a=int (input("Enter a number:"))
+if (a %5==0):
+  print("condition is satisfied")
+else :
+  print("condition is not satisfied")
+Enter a number:25
+condition is satisfied 
+
+
+#4
+a=int (input("Enter a number:"))
+b=int (input("Enter a number:"))
+if (a>b):
+  print(a ,"is greater")
+else :
+  print(b, "is greater")
+Enter a number:2
+Enter a number:3
+3 is gre
+
+er
+
+[ ]
+#Q5
+a=int (input("Enter a year:"))
+
+[ ]
+#Q6
+a=input("enter a character").lower()
+if(a in ('a','e','i','o','u')):
+  print("its a vowel")
+else :
+  print("its a consonant")
+enter a characterb
+its a consonant
+
+[ ]
+#Q7
+a=int(input("enter your age:"))
+if(a>=18):
+  print("you are eligible to vote ")
+else :
+  print("you are not eligible to vote")
+enter your age:19
+you are eligible to vote
+
+
+
+
+
+[] 
+#Q8
+a=int(input ("enter a number"))
+if(a!=11):
+  print("number is not 11")
+else :
+  print("number is 11")
+enter a number12
+number is not 11
+
+[ ]
+#Q9
+a=int(input("enter the AQI"))
+if(a>320):
+  print("its hazardous")""
+else :
+  print("it's hazardous")
+enter the AQI310
+it's hazardous
+
+[ ]
+#Q10
+a=int(input ("enter marks"))
+if(a>90):
+  print("Grade A")
+elif(a>75 and a<90):
+  print("Grade B")
+
+else:
+      print("Grade C")
+enter marks92
+Grade A
+
+#Q11
+a=int(input ("enter 1 angle "))
+b=int(input ("enter 2 angle "))
+c=int(input ("enter 3 angle "))
+if(a+b+c==180):
+  print("it's a triangle ")
+else :
+  print("it's not a triangle ")
+enter 1 angle 25
+enter 2 angle 120
+enter 3 angle 35
+it's a triangle 
+
+[ ]
+#Q12
+a=int(input ("enter 1 side "))
+b=int(input ("enter 2 side "))
+c=int(input ("enter 3 side "))
+if (a!=b and b!=c):
+  print("it's scalene  triangle")
+elif(a==b and b==c) :
+  print("it's an equilateral triangle ")
+else :
+  print("it's an  isosceles triange ")
+enter 1 side 21
+enter 2 side 23
+enter 3 side 24
+it's scalene  triangle
+
+[ ]
+#Q13
+initialunit =5123
+a=int(input("enter the unit "))
+b=a-5123
+if(b<0):
+  print("meter is faulty")
+else:
+  print(b*8)
+enter the unit 3214
+meter is faulty
+
+
+#Q14
+a=int(input ("enter a number"))
+sum1=sum(int(digit)**len(str(a))for digit in str(a))
+if (sum1==a):
+  print("armstrong number")
+else :
+  print("not armstrong no.")
+enter a number153
+armstrong number
+
+[ ]
+#Q15
+a=input("enter a number")
+b=a[::-1]
+
+if a==b:
+  print("palindrome number")
+else :
+  print("not a palindrome number")
+enter a number1221
+palindrome number
+
+[ ]
+
+
